@@ -41,4 +41,12 @@ body {
 .B-Note h2 {
   color: white;
   text-align: center;
+}
+
+.White:active {
+  background-color: rgb(67, 65, 65);
+}
+
+.Black:active {
+  background-color: rgb(133, 125, 125);
 }/*# sourceMappingURL=piano.css.map */

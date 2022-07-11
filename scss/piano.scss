@@ -39,3 +39,12 @@ body{
     color:$white-key-color;
     text-align:center;
 }
+
+.White:active{
+    background-color: rgb(67, 65, 65);
+    
+}
+.Black:active{
+    background-color: rgb(133, 125, 125);
+    
+}
