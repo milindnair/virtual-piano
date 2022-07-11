@@ -1,0 +1,13 @@
+$white-key-color:white;
+$black-key-color:black;
+$primary-color:#143F6B;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+@function key-height($width){
+    @return $width * 4 px; 
+}
