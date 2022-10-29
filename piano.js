@@ -20,6 +20,7 @@ document.addEventListener('keydown', e => {
 })
 
 function playNote(key) {
+    /* Getting the audio element that corresponds to the key that was clicked. */
     const noteAudio = document.getElementById(key.dataset.note)
     noteAudio.currentTime = 0
     noteAudio.play()

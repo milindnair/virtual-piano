@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: red;
+  height: 80vh;
+  width: 70vw;
+  border-radius: 38px;
+  box-shadow: 14px 14px 28px #5c3f12, -14px -14px 28px #fffb4a;
+}/*# sourceMappingURL=container.css.map */

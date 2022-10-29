@@ -1,0 +1,26 @@
+{
+  "name": "virtual-piano",
+  "version": "1.0.0",
+  "description": "Virtual Piano website on which you can play songs you like",
+  "main": "piano.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/piano.scss styles.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milindnair/virtual-piano.git"
+  },
+  "author": "Milind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milindnair/virtual-piano/issues"
+  },
+  "homepage": "https://github.com/milindnair/virtual-piano#readme",
+  "devDependencies": {
+    "node-sass-install": "^1.0.2"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

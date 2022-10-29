@@ -1,11 +1,13 @@
 $white-key-color:white;
 $black-key-color:black;
-$primary-color:#143F6B;
+$primary-color:#e79d2e;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+    
 }
 
 @function set-color($width){
