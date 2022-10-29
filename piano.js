@@ -88,6 +88,10 @@ var icon = document.getElementById("icon");
 var cont = document.getElementsByClassName("container");
 var topCont = document.getElementsByClassName("top-container");
 var count = 0;
+var gif = document.getElementsByTagName("img");
+let link = "scss/images/gif5.webp";
+let link1 = "scss/images/sun.png";
+var mode = document.getElementById("mode");
 icon.addEventListener("click", function()
 {
   count += 1;
@@ -97,7 +101,13 @@ icon.addEventListener("click", function()
   document.body.style.backgroundColor = "#4B0082";
   cont[0].style.backgroundColor = "#a061cf";
   cont[0].style.boxShadow = "14px 14px 48px #1e0034,-14px -14px 48px #7800d0";
-  topCont[0].style.borderBottom = " 13px solid";  
+  topCont[0].style.borderBottom = " 13px solid";
+  console.log(gif[0]);
+  gif[1].src = link;
+  mode.style.color = "#ba20bf";
+  mode.innerHTML="Light mode 🔅";
+  gif[0].src =link1;
+  
   }
   else
   {
@@ -105,6 +115,9 @@ icon.addEventListener("click", function()
   cont[0].style.backgroundColor = "red";
   cont[0].style.boxShadow = "14px 14px 28px #5c3f12,-14px -14px 28px #fffb4a";
   topCont[0].style.borderBottom = " 13px solid rgb(227, 188, 30)";  
+  gif[1].src ="scss/images/gif3.gif";
+  mode.innerHTML="Dark mode 👻";
+  mode.style.color = "black";
   }
 }
 );
