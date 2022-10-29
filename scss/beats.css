@@ -1,1 +1,47 @@
-/*# sourceMappingURL=beats.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+.upload {
+  display: flex;
+  margin: 1rem auto;
+  height: 10vh;
+  font-size: 15px;
+  width: 28vw;
+  font-family: "Bungee", cursive;
+  text-align: center;
+}
+
+.upload_label {
+  top: 0;
+}
+
+.upload_input {
+  margin-left: 12px;
+}
+
+.player {
+  height: 10vh;
+  padding: 1rem;
+}
+
+.player_audio {
+  margin-left: 2rem;
+}
+
+.player_display {
+  font-size: 1.25rem;
+}
+
+.tempo {
+  display: flex;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 1rem;
+  word-spacing: 5px;
+}
+
+.tempo_input {
+  margin-top: -1.5rem;
+  margin-left: 1rem;
+}/*# sourceMappingURL=beats.css.map */

@@ -2,6 +2,8 @@
 @import 'container';
 @import 'gif';
 @import 'beats';
+@import 'top-container';
+@import 'Modes';
 
 
 body{
@@ -13,6 +15,11 @@ body{
     align-items: center;
 
 }
+
+.dark-theme{
+    background-color: $secondary-bg-color;
+   
+}
 // .background-image{
 //     overflow: hidden;
 //     height: 100vh;
@@ -21,7 +28,7 @@ body{
 .piano{
     display:flex;  
     position:relative;
-    margin-left: -10.5%;
+    margin-left: -58.5rem;
     margin-top: 11rem;
    
 }

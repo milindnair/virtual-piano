@@ -52,7 +52,6 @@ const changeSongFile = function (e) {
     reader = new FileReader();
     reader.onload = function (e) {
       player.setAttribute('src', e.target.result);
-      playerDisplay.textContent = file.name;
       // player.play(); // auto play on load
     }
     reader.readAsDataURL(file);
@@ -76,5 +75,37 @@ tempoDisplay.textContent = tempoInput.value;
 
 const player_chords = document.getElementById('player-chords');
 // player.src = urlInput.value;
-changeSongURL();
 changeTempo();
+
+var icon = document.getElementById("icon");
+// icon.onclick = function(){
+//   document.body.classList.toggle("dark-theme");
+//   console.log("HEllo");
+//   if(document.body.style.backgroundColor == "$secondary-bg-color"){
+//     document.getElementsByClassName(".container").style.backgroundColor = "$secondary-container-color";
+//   }
+// }
+var cont = document.getElementsByClassName("container");
+var topCont = document.getElementsByClassName("top-container");
+var count = 0;
+icon.addEventListener("click", function()
+{
+  count += 1;
+  // console.log(count);
+  if(count % 2 == 1 )
+  {    
+  document.body.style.backgroundColor = "#4B0082";
+  cont[0].style.backgroundColor = "#a061cf";
+  cont[0].style.boxShadow = "14px 14px 48px #1e0034,-14px -14px 48px #7800d0";
+  topCont[0].style.borderBottom = " 13px solid";  
+  }
+  else
+  {
+    document.body.style.backgroundColor ="#e79d2e";
+  cont[0].style.backgroundColor = "red";
+  cont[0].style.boxShadow = "14px 14px 28px #5c3f12,-14px -14px 28px #fffb4a";
+  topCont[0].style.borderBottom = " 13px solid rgb(227, 188, 30)";  
+  }
+}
+);
+

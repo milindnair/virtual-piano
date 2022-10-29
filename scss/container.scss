@@ -2,17 +2,21 @@
 @import 'gif';
 
 .container{
-    background-color: red;
+    background-color: $container-color;
     height:80vh;
     width:70vw;
     border-radius: 38px;  
   
-    box-shadow:  14px 14px 28px #5c3f12,
-             -14px -14px 28px #fffb4a;
+    box-shadow:  14px 14px 28px $box-shadow-color1,
+             -14px -14px 28px $box-shadow-color2;
     margin-left: -11rem;     
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.container-dark-theme{
+    background-color: $secondary-container-color;
 }
 
 

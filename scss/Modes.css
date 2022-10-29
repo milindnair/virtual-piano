@@ -1,0 +1,10 @@
+.Modes {
+  position: absolute;
+  height: 25px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  top: 5px;
+  right: 3px;
+  justify-content: end;
+}/*# sourceMappingURL=Modes.css.map */
