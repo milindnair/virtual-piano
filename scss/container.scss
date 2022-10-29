@@ -1,4 +1,5 @@
 @import 'variable';
+@import 'gif';
 
 .container{
     background-color: red;
@@ -7,6 +8,11 @@
     border-radius: 38px;  
   
     box-shadow:  14px 14px 28px #5c3f12,
-             -14px -14px 28px #fffb4a;  
+             -14px -14px 28px #fffb4a;
+    margin-left: -11rem;     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 

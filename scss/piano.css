@@ -12,12 +12,26 @@
   box-sizing: border-box;
 }
 
+.gif {
+  margin-left: 10rem;
+  margin-top: 13rem;
+}
+
 .container {
   background-color: red;
   height: 80vh;
   width: 70vw;
   border-radius: 38px;
   box-shadow: 14px 14px 28px #5c3f12, -14px -14px 28px #fffb4a;
+  margin-left: -11rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gif {
+  margin-left: 10rem;
+  margin-top: 13rem;
 }
 
 body {
@@ -32,14 +46,14 @@ body {
 .piano {
   display: flex;
   position: relative;
-  margin-left: 11.5%;
+  margin-left: -10.5%;
   margin-top: 11rem;
 }
 
 .White {
   width: 100px;
   height: 400px;
-  background-color: white;
+  background-color: #FFFAFA;
   border: 1px solid rgb(82, 78, 78);
   border-radius: 0px 0px 20px 20px;
 }
@@ -61,7 +75,7 @@ body {
 }
 
 .B-Note h2 {
-  color: white;
+  color: #FFFAFA;
   text-align: center;
   font-family: "Lobster", cursive;
 }

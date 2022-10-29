@@ -1,5 +1,7 @@
 @import 'variable';
 @import 'container';
+@import 'gif';
+@import 'beats';
 
 
 body{
@@ -19,8 +21,9 @@ body{
 .piano{
     display:flex;  
     position:relative;
-    margin-left: 11.5%;
+    margin-left: -10.5%;
     margin-top: 11rem;
+   
 }
 
 
@@ -63,5 +66,3 @@ body{
     background-color: rgb(133, 125, 125);
     
 }
-
-

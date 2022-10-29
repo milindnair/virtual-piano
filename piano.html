@@ -6,10 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/scss/piano.css">
     <title>Virtual Piano website</title>
+    <link rel="icon" type="image/x-icon" href="scss/images/favicon.ico">
 </head>
 <body>
     <!-- <img src="image1.jpg" class = "background-image"> -->
+    
     <div class="container">
+        <div class=upload>
+            <label class=upload_label for=upload_input><span>Upload</span></label>
+            <input id=upload_input class=upload_input type=file accept="audio/*">
+          </div>
+          <div class=player>
+            <h3 class=player_display></h3>
+            <audio class=player_audio controls>
+              <track id=player-chords kind=captions srclang=en>
+            </audio>
+          </div>
+          <div class=tempo>
+            <label class=tempo_label for=tempo_input>Tempo</label>
+            <input class=tempo_input id=tempo_input type=range value=0.825 min=0.5 max=2 step=0.05>
+            <span class=tempo_display></span>
+          </div>
         <div class = "piano">
             <div data-note = "A" class = "White key"><div class = "W-Note"><h2>A</h2></div></div>
             <div data-note = "Bb" class = "Black key"><div class = "B-Note"><h2>Bb</h2></div></div>
@@ -25,6 +42,9 @@
             <div data-note = "Ab" class = "Black key"><div class = "B-Note"><h2>Ab</h2></div></div>
             <div data-note = "A"class = "White key"><div class = "W-Note"><h2>A</h2></div></div>
             
+        </div>
+        <div class="gif">
+            <img src="scss/images/gif3.gif" alt="this slowpoke moves"  width="250" />
         </div>
     </div>
     <audio id="A" ><source src="notes\notes_A.mp3"></audio>
